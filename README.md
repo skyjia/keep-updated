@@ -1,7 +1,7 @@
 keep-updated
 ============
 
-Collections and tips on how to keep your development environment updated
+Collections and tips on how to keep your development environment updated.
 
 # Update Development Environment
 
@@ -16,6 +16,17 @@ $ brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 ```
 
 ## Languages
+
+### go-lang
+
+- Update go from source:
+```shell
+$ cd go/src
+$ hg pull
+$ hg update release
+$ ./all.bash
+```
+Refer to: http://golang.org/doc/install/source
 
 
 ## Package Managers
