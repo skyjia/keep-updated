@@ -7,7 +7,6 @@ Collections and tips on how to keep your development environment updated.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [keep-updated](#keep-updated)
 - [Update Development Environment](#update-development-environment)
   - [OS X](#os-x)
     - [Homebrew & Cask](#homebrew-&-cask)
