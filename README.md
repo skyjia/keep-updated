@@ -35,6 +35,15 @@ $ brew doctor
 $ brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 ```
 
+#### CocoaPods
+
+- CocoaPods is the dependency manager for Objective-C projects:
+```shell
+$ sudo gem install cocoapods
+```
+Refer to: http://cocoapods.org
+
+
 ### Languages
 
 #### go-lang
