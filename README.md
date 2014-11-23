@@ -57,7 +57,6 @@ $ pod install
 ```
 After CocoaPods download the dependent libraries, will create a new xcode workspace for you. You will see " From now on use `xxx.xcworkspace`. Your original target will add a lib called libPods.a.
 - Update dependencies:
-After install CocoaPads you can simplely update the dependent libraties by:
 ```shell
 $ pod update
 ```
