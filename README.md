@@ -10,6 +10,7 @@ Collections and tips on how to keep your development environment updated.
 - [Update Development Environment](#update-development-environment)
   - [OS X](#os-x)
     - [Homebrew & Cask](#homebrew-&-cask)
+    - [CocoaPods](#CocoaPods)
   - [Languages](#languages)
     - [go-lang](#go-lang)
   - [Package Managers](#package-managers)
