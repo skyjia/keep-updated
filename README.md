@@ -36,25 +36,26 @@ $ brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 ```
 
 #### CocoaPods
-	CocoaPods is the dependency manager for Objective-C projects:
+CocoaPods is the dependency manager for Objective-C projects:
 - Intall:
 ```shell
 $ sudo gem install cocoapods
 ```
-- Create Podfile:
-In your xcode project folder, crate a Podfile
+- Create a Podfile in your project folder:
+
 ```shell
 $ touch Podfile
 ```
 One Simple Podfile example:
+```shell
 	source 'https://github.com/CocoaPods/Specs.git'
 	pod 'AFNetworking', '~> 1.0'
+```
 - Using CocoaPods:
 ```shell
 $ pod install
 ```
-After CocoaPods download the dependent libraries, will create a new xcode workspace for you.
-You will see " From now on use `xxx.xcworkspace`. And your original target will add a lib called libPods.a.
+After CocoaPods download the dependent libraries, will create a new xcode workspace for you. You will see " From now on use `xxx.xcworkspace`. Your original target will add a lib called libPods.a.
 - Update dependencies:
 After install CocoaPads you can simplely update the dependent libraties by:
 ```shell
