@@ -42,20 +42,21 @@ $ brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 $ sudo gem install cocoapods
 ```
 - Create Podfile:
-	In your xcode project folder, crate a Podfile
+In your xcode project folder, crate a Podfile
 ```shell
 $ touch Podfile
 ```
-	the content of Podfile is like:
+One Simple Podfile example:
 	source 'https://github.com/CocoaPods/Specs.git'
 	pod 'AFNetworking', '~> 1.0'
 - Using CocoaPods:
 ```shell
 $ pod install
 ```
-	After CocoaPods download the dependent libraries, will create a new xcode workspace for you, you will see " From now on use `xxx.xcworkspace`. And your original target will add a lib called libPods.a.
+After CocoaPods download the dependent libraries, will create a new xcode workspace for you.
+You will see " From now on use `xxx.xcworkspace`. And your original target will add a lib called libPods.a.
 - Update dependencies:
-	After install CocoaPads you can simplely update the dependent libraties by:
+After install CocoaPads you can simplely update the dependent libraties by:
 ```shell
 $ pod update
 ```
