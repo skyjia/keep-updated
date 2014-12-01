@@ -12,6 +12,9 @@ Collections and tips on how to keep your development environment updated.
     - [Homebrew & Cask](#homebrew-&-cask)
   - [Languages](#languages)
     - [go-lang](#go-lang)
+  - [Development Tools](#development-tools)
+    - [Vim](#vim)
+    - [GUN Emacs](#gun-emacs)
   - [Package Managers](#package-managers)
     - [NPM](#npm)
     - [go packages](#go-packages)
@@ -46,8 +49,28 @@ $ hg pull
 $ hg update release
 $ ./all.bash
 ```
-Refer to: http://golang.org/doc/install/source
+> Refer to: http://golang.org/doc/install/source
 
+### Development Tools
+
+#### Vim
+
+- Update plugins managed by [pathogen](https://github.com/tpope/vim-pathogen) with shell script:
+```shell
+#!/bin/bash
+cd ~/.vim/bundle
+for i in `ls`; do
+  cd "$i"
+  git pull
+cd ..
+done
+```
+
+#### GUN Emacs
+
+- Update GUN Emacs packages managed by [Prelude](https://github.com/bbatsov/prelude):
+  Just run `M-x package-list-packages RET U x` in Emacs
+  > Refere to https://github.com/bbatsov/prelude#updating-prelude
 
 ### Package Managers
 
