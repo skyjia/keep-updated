@@ -53,8 +53,8 @@ $ touch Podfile
 ```
 One Simple Podfile example:
 ```shell
-	source 'https://github.com/CocoaPods/Specs.git'
-	pod 'AFNetworking', '~> 1.0'
+source 'https://github.com/CocoaPods/Specs.git'
+pod 'AFNetworking', '~> 1.0'
 ```
 
 - Using CocoaPods:
@@ -102,7 +102,8 @@ done
 
 - Update GUN Emacs packages managed by [Prelude](https://github.com/bbatsov/prelude):
   Just run `M-x package-list-packages RET U x` in Emacs
-  > Refere to https://github.com/bbatsov/prelude#updating-prelude
+
+> Refere to https://github.com/bbatsov/prelude#updating-prelude
 
 ### Package Managers
 
