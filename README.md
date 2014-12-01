@@ -100,7 +100,7 @@ done
 
 #### GUN Emacs
 
-- Update GUN Emacs packages managed by [Prelude](https://github.com/bbatsov/prelude):
+- Update GUN Emacs packages managed by [Prelude](https://github.com/bbatsov/prelude):  
   Just run `M-x package-list-packages RET U x` in Emacs
 
 > Refere to https://github.com/bbatsov/prelude#updating-prelude
