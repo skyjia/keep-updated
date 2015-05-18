@@ -87,15 +87,11 @@ $ ./all.bash
 
 #### Vim
 
-- Update plugins managed by [pathogen](https://github.com/tpope/vim-pathogen) with shell script:
+- Update plugins managed by [janus](https://github.com/carlhuda/janus#updating-to-the-latest-version) with shell script:
 ```shell
 #!/bin/bash
-cd ~/.vim/bundle
-for i in `ls`; do
-  cd "$i"
-  git pull
-cd ..
-done
+cd ~/.vim
+rake
 ```
 
 #### GUN Emacs
